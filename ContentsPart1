@@ -1,0 +1,717 @@
+Contents
+
+PART I
+
+Preface
+Acknowledgments
+Chapter 1: An Introduction to Java
+	1.1 Java as a Programming Platform
+	1.2 The Java “White Paper” Buzzwords
+		1.2.1	Simple
+		1.2.2	Object-Oriented
+		1.2.3	Distributed
+		1.2.4	Robust
+	1.2.5	Secure
+	1.2.6	Architecture-Neutral
+	1.2.7	Portable
+	1.2.8	Interpreted
+	1.2.9	High-Performance
+	1.2.10 Multithreaded
+	1.2.11 Dynamic
+	1.3 Java Applets and the Internet
+1.4 A Short History of Java
+1.5 Common Misconceptions about Java
+Chapter 2: The Java Programming Environment
+2.1
+Installing the Java Development Kit
+2.1.1
+2.1.2
+2.1.3
+Downloading the JDK
+Setting up the JDK
+Installing Source Files and Documentation
+2.2 Using the Command-Line Tools
+2.3 Using an Integrated Development Environment
+2.4 JShell
+Chapter 3: Fundamental Programming Structures in Java
+3.1 A Simple Java Program
+3.2 Comments
+3.3 Data Types
+3.3.1
+3.3.2
+3.3.3
+3.3.4
+3.3.5
+3.4
+3.5
+Integer Types
+Floating-Point Types
+The char Type
+Unicode and the char Type
+The boolean Type
+Variables and Constants
+3.4.1
+Declaring Variables
+3.4.2
+Initializing Variables
+3.4.3
+Constants
+3.4.4
+Enumerated Types
+Operators
+3.5.1
+3.5.2
+3.5.3
+3.5.4
+Arithmetic Operators
+Mathematical Functions and Constants
+Conversions between Numeric Types
+Casts3.5.5
+3.5.6
+3.5.7
+3.5.8
+3.5.9
+3.6
+Combining Assignment with Operators
+Increment and Decrement Operators
+Relational and boolean Operators
+Bitwise Operators
+Parentheses and Operator Hierarchy
+Strings
+3.6.1
+3.6.2
+3.6.3
+3.6.4
+3.6.5
+3.6.6
+3.6.7
+3.6.8
+3.6.9
+3.7
+3.8
+Input
+3.7.1
+3.7.2
+3.7.3
+Substrings
+Concatenation
+Strings Are Immutable
+Testing Strings for Equality
+Empty and Null Strings
+Code Points and Code Units
+The String API
+Reading the Online API Documentation
+Building Strings
+and Output
+Reading Input
+Formatting Output
+File Input and Output
+Control Flow
+3.8.1
+3.8.2
+3.8.3
+3.8.4
+3.8.5
+3.8.6
+3.9
+Block Scope
+Conditional Statements
+Loops
+Determinate Loops
+Multiple Selections—The switch Statement
+Statements That Break Control Flow
+Big Numbers
+3.10 Arrays
+3.10.1
+3.10.2
+3.10.3
+3.10.4
+3.10.5
+3.10.6
+3.10.7
+3.10.8
+Declaring Arrays
+Accessing Array Elements
+The “for each” Loop
+Array Copying
+Command-Line Parameters
+Array Sorting
+Multidimensional Arrays
+Ragged Arrays
+Chapter 4: Objects and Classes
+4.1 Introduction to Object-Oriented Programming
+4.1.1
+Classes
+4.1.2
+Objects
+4.1.3
+Identifying Classes
+4.1.4
+Relationships between Classes
+4.2 Using
+4.2.1
+4.2.2
+4.2.3
+4.3 Defining Your Own Classes
+4.3.1
+An Employee Class
+4.3.2
+Use of Multiple Source Files
+4.3.3
+Dissecting the Employee Class
+4.3.4
+First Steps with Constructors
+4.3.5
+Declaring Local Variables with var
+Predefined Classes
+Objects and Object Variables
+The LocalDate Class of the Java Library
+Mutator and Accessor Methods4.4
+4.3.6
+4.3.7
+4.3.8
+4.3.9
+4.3.10
+4.3.11 Working with null References
+Implicit and Explicit Parameters
+Benefits of Encapsulation
+Class-Based Access Privileges
+Private Methods
+Final Instance Fields
+Static
+4.4.1
+4.4.2
+4.4.3
+4.4.4
+4.4.5 Fields and Methods
+Static Fields
+Static Constants
+Static Methods
+Factory Methods
+The main Method
+4.5 Method Parameters
+4.6 Object Construction
+4.6.1
+4.6.2
+4.6.3
+4.6.4
+4.6.5
+4.6.6
+4.6.7
+4.6.8
+Overloading
+Default Field Initialization
+The Constructor with No Arguments
+Explicit Field Initialization
+Parameter Names
+Calling Another Constructor
+Initialization Blocks
+Object Destruction and the finalize Method
+4.7 Packages
+4.7.1
+Package Names
+4.7.2
+Class Importation
+4.7.3
+Static Imports
+4.7.4
+Addition of a Class into a Package
+4.7.5
+Package Access
+4.7.6
+The Class Path
+4.7.7
+Setting the Class Path
+4.8 JAR Files
+4.8.1
+Creating JAR files
+4.8.2
+The Manifest
+4.8.3
+Executable JAR Files
+4.8.4
+Multi-Release JAR Files
+4.8.5
+A Note about Command-Line Options
+4.9
+Documentation Comments
+4.9.1
+4.9.2
+4.9.3
+4.9.4
+4.9.5
+4.9.6
+4.9.7
+Comment Insertion
+Class Comments
+Method Comments
+Field Comments
+General Comments
+Package Comments
+Comment Extraction
+4.10 Class Design Hints
+Chapter 5: Inheritance
+5.1
+Classes, Superclasses, and Subclasses
+5.1.1
+5.1.2
+5.1.3
+5.1.4
+5.1.5
+5.1.6
+Defining Subclasses
+Overriding Methods
+Subclass Constructors
+Inheritance Hierarchies
+Polymorphism
+Understanding Method Calls5.1.7
+5.1.8
+5.1.9
+5.1.10
+5.2
+Object: The Cosmic Superclass
+5.2.1
+5.2.2
+5.2.3
+5.2.4
+5.2.5
+5.3
+Preventing Inheritance: Final Classes and Methods
+Casting
+Abstract Classes
+Protected Access
+Variables of Type Object
+The equals Method
+Equality Testing and Inheritance
+The hashCode Method
+The toString Method
+Generic Array Lists
+5.3.1
+5.3.2
+5.3.3
+Declaring Array Lists
+Accessing Array List Elements
+Compatibility between Typed and Raw Array Lists
+5.4 Object Wrappers and Autoboxing
+5.5 Methods with a Variable Number of Parameters
+5.6 Enumeration Classes
+5.7
+5.8
+Reflection
+5.7.1
+The Class Class
+5.7.2
+A Primer on Declaring Exceptions
+5.7.3
+Resources
+5.7.4
+Using Reflection to Analyze the Capabilities of Classes
+5.7.5
+Using Reflection to Analyze Objects at Runtime
+5.7.6
+Using Reflection to Write Generic Array Code
+5.7.7
+Invoking Arbitrary Methods and Constructors
+Design Hints for Inheritance
+Chapter 6: Interfaces, Lambda Expressions, and Inner Classes
+6.1
+Interfaces
+6.1.1
+6.1.2
+6.1.3
+6.1.4
+6.1.5
+6.1.6
+6.1.7
+6.1.8
+6.1.9
+6.2
+Lambda Expressions
+6.2.1
+6.2.2
+6.2.3
+6.2.4
+6.2.5
+6.2.6
+6.2.7
+6.2.8
+6.3
+The Interface Concept
+Properties of Interfaces
+Interfaces and Abstract Classes
+Static and Private Methods
+Default Methods
+Resolving Default Method Conflicts
+Interfaces and Callbacks
+The Comparator Interface
+Object Cloning
+Why Lambdas?
+The Syntax of Lambda Expressions
+Functional Interfaces
+Method References
+Constructor References
+Variable Scope
+Processing Lambda Expressions
+More about Comparators
+Inner Classes
+6.3.1
+6.3.2
+6.3.3
+6.3.4
+6.3.5
+Use of an Inner Class to Access Object State
+Special Syntax Rules for Inner Classes
+Are Inner Classes Useful? Actually Necessary? Secure?
+Local Inner Classes
+Accessing Variables from Outer Methods6.3.6
+6.3.7
+6.4
+6.5
+Anonymous Inner Classes
+Static Inner Classes
+Service Loaders
+Proxies
+6.5.1
+6.5.2
+6.5.3
+When to Use Proxies
+Creating Proxy Objects
+Properties of Proxy Classes
+Chapter 7: Exceptions, Assertions, and Logging
+7.1 Dealing with Errors
+7.1.1
+The Classification of Exceptions
+7.1.2
+Declaring Checked Exceptions
+7.1.3
+How to Throw an Exception
+7.1.4
+Creating Exception Classes
+7.2 Catching Exceptions
+7.2.1
+Catching an Exception
+7.2.2
+Catching Multiple Exceptions
+7.2.3
+Rethrowing and Chaining Exceptions
+7.2.4
+The finally Clause
+7.2.5
+The try-with-Resources Statement
+7.2.6
+Analyzing Stack Trace Elements
+7.3 Tips for Using Exceptions
+7.4 Using Assertions
+7.4.1
+7.4.2
+7.4.3
+7.4.4
+7.5
+Logging
+7.5.1
+7.5.2
+7.5.3
+7.5.4
+7.5.5
+7.5.6
+7.5.7
+7.5.8
+7.6
+The Assertion Concept
+Assertion Enabling and Disabling
+Using Assertions for Parameter Checking
+Using Assertions for Documenting Assumptions
+Basic Logging
+Advanced Logging
+Changing the Log Manager Configuration
+Localization
+Handlers
+Filters
+Formatters
+A Logging Recipe
+Debugging Tips
+Chapter 8: Generic Programming
+8.1
+Why Generic Programming?
+8.1.1
+The Advantage of Type Parameters
+8.1.2
+Who Wants to Be a Generic Programmer?
+8.2 Defining a Simple Generic Class
+8.3 Generic Methods
+8.4 Bounds for Type Variables
+8.5
+8.6
+Generic Code and the Virtual Machine
+8.5.1
+Type Erasure
+8.5.2
+Translating Generic Expressions
+8.5.3
+Translating Generic Methods
+8.5.4
+Calling Legacy Code
+Restrictions and Limitations
+8.6.1
+8.6.2
+Type Parameters Cannot Be Instantiated with Primitive Types
+Runtime Type Inquiry Only Works with Raw Types8.6.3
+8.6.4
+8.6.5
+8.6.6
+8.6.7
+8.6.8
+8.6.9
+8.6.10
+8.7
+You Cannot Create Arrays of Parameterized Types
+Varargs Warnings
+You Cannot Instantiate Type Variables
+You Cannot Construct a Generic Array
+Type Variables Are Not Valid in Static Contexts of Generic Classes
+You Cannot Throw or Catch Instances of a Generic Class
+You Can Defeat Checked Exception Checking
+Beware of Clashes after Erasure
+Inheritance Rules for Generic Types
+8.8 Wildcard Types
+8.8.1
+The Wildcard Concept
+8.8.2
+Supertype Bounds for Wildcards
+8.8.3
+Unbounded Wildcards
+8.8.4
+Wildcard Capture
+8.9 Reflection and Generics
+8.9.1
+The Generic Class Class
+8.9.2
+Using Class<T> Parameters for Type Matching
+8.9.3
+Generic Type Information in the Virtual Machine
+8.9.4
+Type Literals
+Chapter 9: Collections
+9.1
+9.2
+9.3
+9.4
+9.5
+9.6
+The Java Collections Framework
+9.1.1
+Separating Collection Interfaces and Implementation
+9.1.2
+The Collection Interface
+9.1.3
+Iterators
+9.1.4
+Generic Utility Methods
+Interfaces in the Collections Framework
+Concrete Collections
+9.3.1
+Linked Lists
+9.3.2
+Array Lists
+9.3.3
+Hash Sets
+9.3.4
+Tree Sets
+9.3.5
+Queues and Deques
+9.3.6
+Priority Queues
+Maps
+9.4.1
+9.4.2
+9.4.3
+9.4.4
+9.4.5
+9.4.6
+9.4.7 Basic Map Operations
+Updating Map Entries
+Map Views
+Weak Hash Maps
+Linked Hash Sets and Maps
+Enumeration Sets and Maps
+Identity Hash Maps
+Views
+9.5.1
+9.5.2
+9.5.3
+9.5.4
+9.5.5
+9.5.6 and Wrappers
+Small Collections
+Subranges
+Unmodifiable Views
+Synchronized Views
+Checked Views
+A Note on Optional Operations
+Algorithms
+9.6.1
+9.6.2
+9.6.3
+9.6.4
+Why Generic Algorithms?
+Sorting and Shuffling
+Binary Search
+Simple Algorithms9.6.5
+9.6.6
+9.6.7
+9.7
+Bulk Operations
+Converting between Collections and Arrays
+Writing Your Own Algorithms
+Legacy Collections
+9.7.1
+The Hashtable Class
+9.7.2
+Enumerations
+9.7.3
+Property Maps
+9.7.4
+Stacks
+9.7.5
+Bit Sets
+Chapter 10: Graphical User Interface Programming
+10.1 A History of Java User Interface Toolkits
+10.2 Displaying Frames
+10.2.1 Creating a Frame
+10.2.2 Frame Properties
+10.3 Displaying Information in a Component
+10.3.1
+10.3.2
+10.3.3
+10.3.4
+10.4 Event
+10.4.1
+10.4.2
+10.4.3
+10.4.4
+10.4.5
+10.4.6
+10.4.7
+Working with 2D Shapes
+Using Color
+Using Fonts
+Displaying Images
+Handling
+Basic Event Handling Concepts
+Example: Handling a Button Click
+Specifying Listeners Concisely
+Adapter Classes
+Actions
+Mouse Events
+The AWT Event Hierarchy
+10.5 The Preferences API
+Chapter 11: User Interface Components with Swing
+11.1 Swing and the Model-View-Controller Design Pattern
+11.2 Introduction to Layout Management
+11.2.1 Layout Managers
+11.2.2 Border Layout
+11.2.3 Grid Layout
+11.3 Text Input
+11.3.1 Text Fields
+11.3.2 Labels and Labeling Components
+11.3.3 Password Fields
+11.3.4 Text Areas
+11.3.5 Scroll Panes
+11.4 Choice Components
+11.4.1 Checkboxes
+11.4.2 Radio Buttons
+11.4.3 Borders
+11.4.4 Combo Boxes
+11.4.5 Sliders
+11.5 Menus
+11.5.1
+11.5.2
+11.5.3
+11.5.4
+11.5.5
+Menu Building
+Icons in Menu Items
+Checkbox and Radio Button Menu Items
+Pop-Up Menus
+Keyboard Mnemonics and Accelerators11.5.6 Enabling and Disabling Menu Items
+11.5.7 Toolbars
+11.5.8 Tooltips
+11.6 Sophisticated Layout Management
+11.6.1 The Grid Bag Layout
+11.6.1.1 The gridx, gridy, gridwidth, and gridheight Parameters
+11.6.1.2 Weight Fields
+11.6.1.3 The fill and anchor Parameters
+11.6.1.4 Padding
+11.6.1.5 Alternative Method to Specify the gridx, gridy, gridwidth, and
+gridheight Parameters
+11.6.1.6 A Grid Bag Layout Recipe
+11.6.1.7 A Helper Class to Tame the Grid Bag Constraints
+11.6.2 Custom Layout Managers
+11.7 Dialog Boxes
+11.7.1
+11.7.2
+11.7.3
+11.7.4
+Option Dialogs
+Creating Dialogs
+Data Exchange
+File Dialogs
+Chapter 12: Concurrency
+12.1 What Are Threads?
+12.2 Thread States
+12.2.1 New Threads
+12.2.2 Runnable Threads
+12.2.3 Blocked and Waiting Threads
+12.2.4 Terminated Threads
+12.3 Thread Properties
+12.3.1
+12.3.2
+12.3.3
+12.3.4
+12.3.5
+Interrupting Threads
+Daemon Threads
+Thread Names
+Handlers for Uncaught Exceptions
+Thread Priorities
+12.4 Synchronization
+12.4.1 An Example of a Race Condition
+12.4.2 The Race Condition Explained
+12.4.3 Lock Objects
+12.4.4 Condition Objects
+12.4.5 The synchronized Keyword
+12.4.6 Synchronized Blocks
+12.4.7 The Monitor Concept
+12.4.8 Volatile Fields
+12.4.9 Final Variables
+12.4.10 Atomics
+12.4.11 Deadlocks
+12.4.12 Thread-Local Variables
+12.4.13 Why the stop and suspend Methods Are Deprecated
+12.5 Thread-Safe Collections
+12.5.1 Blocking Queues
+12.5.2 Efficient Maps, Sets, and Queues
+12.5.3 Atomic Update of Map Entries
+12.5.4 Bulk Operations on Concurrent Hash Maps
+12.5.5 Concurrent Set Views
+12.5.6 Copy on Write Arrays12.5.7 Parallel Array Algorithms
+12.5.8 Older Thread-Safe Collections
+12.6 Tasks and Thread Pools
+12.6.1
+12.6.2
+12.6.3
+12.6.4
+Callables and Futures
+Executors
+Controlling Groups of Tasks
+The Fork-Join Framework
+12.7 Asynchronous Computations
+12.7.1 Completable Futures
+12.7.2 Composing Completable Futures
+12.7.3 Long-Running Tasks in User Interface Callbacks
+12.8 Processes
+12.8.1 Building a Process
+12.8.2 Running a Process
+12.8.3 Process Handles
+Appendix
+Index
