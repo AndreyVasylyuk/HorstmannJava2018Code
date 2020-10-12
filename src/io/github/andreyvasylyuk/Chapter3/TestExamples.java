@@ -31,6 +31,14 @@ public class TestExamples {
         System.out.println("Capacity of builder : " + builder.capacity());
         String completedString = builder.toString();
         System.out.println(completedString);
+        System.out.println("\n\n");
+        
+        int n;
+        {
+//            int n; // Exception in thread "main" java.lang.Error:
+        }
+        
+        
      }
 
 }
