@@ -11,28 +11,25 @@ Chapter 1: An Introduction to Java
 		1.2.2	Object-Oriented
 		1.2.3	Distributed
 		1.2.4	Robust
-	1.2.5	Secure
-	1.2.6	Architecture-Neutral
-	1.2.7	Portable
-	1.2.8	Interpreted
-	1.2.9	High-Performance
-	1.2.10 Multithreaded
-	1.2.11 Dynamic
+		1.2.5	Secure
+		1.2.6	Architecture-Neutral
+		1.2.7	Portable
+		1.2.8	Interpreted
+		1.2.9	High-Performance
+		1.2.10 Multithreaded
+		1.2.11 Dynamic
 	1.3 Java Applets and the Internet
-1.4 A Short History of Java
-1.5 Common Misconceptions about Java
+	1.4 A Short History of Java
+	1.5 Common Misconceptions about Java
+	
 Chapter 2: The Java Programming Environment
-2.1
-Installing the Java Development Kit
-2.1.1
-2.1.2
-2.1.3
-Downloading the JDK
-Setting up the JDK
-Installing Source Files and Documentation
-2.2 Using the Command-Line Tools
-2.3 Using an Integrated Development Environment
-2.4 JShell
+	2.1 Installing the Java Development Kit
+		2.1.1 Downloading the JDK
+		2.1.2 Setting up the JDK
+		2.1.3 Installing Source Files and Documentation
+	2.2 Using the Command-Line Tools
+	2.3 Using an Integrated Development Environment
+	2.4 JShell
 Chapter 3: Fundamental Programming Structures in Java
 3.1 A Simple Java Program
 3.2 Comments
