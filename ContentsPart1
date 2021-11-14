@@ -6,7 +6,7 @@ Preface
 Acknowledgments
 Chapter 1: An Introduction to Java
 	1.1 Java as a Programming Platform
-	1.2 The Java “White Paper” Buzzwords
+	1.2 The Java White Paper Buzzwords
 		1.2.1	Simple
 		1.2.2	Object-Oriented
 		1.2.3	Distributed
@@ -132,7 +132,7 @@ Big Numbers
 3.10.8
 Declaring Arrays
 Accessing Array Elements
-The “for each” Loop
+The for each loop
 Array Copying
 Command-Line Parameters
 Array Sorting
